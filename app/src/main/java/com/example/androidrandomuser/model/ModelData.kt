@@ -1,4 +1,5 @@
 package com.example.androidrandomuser.model
+
 import com.google.gson.annotations.SerializedName
 
 
@@ -15,4 +16,5 @@ data class ModelData(
     val title: String,
     @field:SerializedName("category")
     val category: String
+
 )
